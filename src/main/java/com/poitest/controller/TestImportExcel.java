@@ -35,6 +35,5 @@ public class TestImportExcel {
         //第二行开始，到倒数第三行结束（总数减去两行）
         List<StudentBaseInfo> readDateListT = ImportExcelUtil.readDateListT(wb, studentBaseInfo, 2, 2);
         System.out.println(readDateListT);
-
   }
 }
